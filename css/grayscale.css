@@ -45,6 +45,7 @@ p {
   padding-top:20px;
   background: rgba(61,118,52,.3);
   border-radius: 5px;
+  margin:0px 10px;
 }
 }
 @media(min-width:767px) {
@@ -66,7 +67,9 @@ p {
   border-radius: 5px;
 }
 }
-
+.content-section > .row {
+  padding:0px 10px;
+}
 a {
     color: #219ab3;
     -webkit-transition: all .2s ease-in-out;
@@ -85,6 +88,7 @@ a:focus {
 }
 
 .navbar-custom {
+    width:100%;
     margin-bottom: 0;
     border-bottom: 1px solid rgba(255,255,255,.3);
     text-transform: uppercase;
@@ -101,7 +105,7 @@ a:focus {
 }
 
 .navbar-custom .navbar-brand .navbar-toggle {
-    padding: 4px 6px;
+    padding: 4px 0px;
     font-size: 11px;
     color: #fff;
 }
@@ -293,9 +297,10 @@ footer{
     background-size: cover;
     -o-background-size: cover;
 }
-p.place{
+.place{
     font-size: 17px;
 }
+ul.place{padding:0px;}
 @media(min-width:767px) {
     .content-section {
         padding-top: 250px;
